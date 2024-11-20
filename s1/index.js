@@ -9,7 +9,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const btn2 = new Button({
     id: 'btn2',
     onClick: () => {
-      Message.info('提升前端开发的职业天花板，延长前端开发的职业寿命');
+      Message.info('提升前端开发的职业天花板，延长前端开发的职业寿命', 6000);
     }
   });
 });
